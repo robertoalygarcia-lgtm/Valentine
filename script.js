@@ -21,7 +21,7 @@ function showMessage(response) {
 
     // Update text content and hide name message
     document.getElementById("question").textContent =
-      "Como que ño??, pero no puedes escapar tan fácilmente!";
+      "Como que ño??, pero no puedes escapar tan fácilmente muejeje!";
     document.getElementById("name").style.display = "none";
 
     // Optional: You can also add a timeout to reset the position after a few seconds
@@ -34,7 +34,7 @@ function showMessage(response) {
 
     // Update text content, show message, and change image source to "dance.gif"
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "¡Sabia que dirias que si! Nos vemos el 14, Cosita tqn :3 🤍.";
+    yesMessage.textContent = "¡Sabia que dirias que si! Nos vemos el 14, Cosita tqm :3 🤍.";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "images/dance.gif";
