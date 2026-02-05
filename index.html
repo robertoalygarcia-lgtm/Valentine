@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quieres ser San Valentín</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="images/catflower.jpg"></img>
+            <h1 class="hh" id="name">Hola cosita :3!</h1>
+            <p class="pp" id="question">Quieres ser mi san Valentín?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">Ño</button>
+                <button onclick="showMessage('Yes')" id="yesButton">Yes</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>Como que ño, pero no puedes escapar tan fácilmente muejeje</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>¡Sabia que dirias que si! Nos vemos el 14, Cosita, tqm :3</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
